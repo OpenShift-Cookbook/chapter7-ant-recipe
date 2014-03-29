@@ -1,0 +1,4 @@
+#!/bin/bash
+set -X
+cd $OPENSHIFT_REPO_DIR
+ant package
