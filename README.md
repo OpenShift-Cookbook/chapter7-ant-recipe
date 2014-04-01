@@ -1,3 +1,7 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
+# Chapter 7- Ant recipe#
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#tomcat
+To run it on OpenShift, execute the command shown below.
+
+```
+$ rhc app-create antapp tomcat-7 --from-code https://github.com/OpenShift-Cookbook/chapter7-ant-recipe.git
+```
